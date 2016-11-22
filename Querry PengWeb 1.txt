@@ -1,0 +1,18 @@
+create database pengweb;
+use pengweb;
+
+create table mahasiswa(
+Id_Mhs char (20),
+Nama_Mhs varchar (35));
+
+insert into mahasiswa ( Id_Mhs, Nama_Mhs) values
+('001','Ahmad'),
+('002','Deniza'),
+('003','Tirtana'),
+('004','Eko'),
+('005','Bambang'),
+('006','Sinu'),
+('007','Darsono'),
+('008','Nohan'),
+('009','Aryang'),
+('010','Kautsar');
